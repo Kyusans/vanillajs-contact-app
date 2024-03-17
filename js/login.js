@@ -19,6 +19,7 @@ document.getElementById("login").addEventListener("click", async () => {
     console.log(res.data);
     if (res.data !== 0) {
       alert("Logged in successfully");
+      localStorage.setItem("userId", res.data.user_id);
       window.location.href = "./../dashboard.html";
     } else {
       alert("Invalid credentials");

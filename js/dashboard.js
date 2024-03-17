@@ -1,7 +1,4 @@
-async function getContact() {
-  try {
-    
-  }catch{
-    
-  }
-}
+// async function getContact() {
+//   const url = localStorage.getItem("url") + "user.php";
+
+// }
